@@ -16,11 +16,7 @@ class MathQuestion{
   late String question;
   late double answer;
   
-  MathQuestion(String aQuestion, double aAnswer){
-    
-  this.question = aQuestion;
-  this.answer = aAnswer; 
-  }
+  MathQuestion(this.question, this.answer);
   
 }
 
