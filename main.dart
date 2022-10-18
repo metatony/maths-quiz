@@ -13,8 +13,8 @@ double prompt(String promptText){
 
 class MathQuestion{
   
-  late String question;
-  late double answer;
+  String question;
+  double answer;
   
   MathQuestion(this.question, this.answer);
   
